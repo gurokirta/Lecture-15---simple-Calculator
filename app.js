@@ -22,6 +22,7 @@ if (action ==="+") {
 }
 else {
     document.getElementById("action__error").innerHTML=("არასწორი მოქმედება");
+    console.log("არასწორი მოქმედება");
 };
 
 
@@ -42,4 +43,5 @@ switch(action) {
         break;
     default:
         document.getElementById("action__error").innerHTML=("არასწორი მოქმედება");
+        console.log("არასწორი მოქმედება");
 };

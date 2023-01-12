@@ -31,16 +31,20 @@ else {
 // Switch
 switch(action) {
     case "+":
-        document.getElementById("action").innerHTML=(Number(firstNum) + Number(secondNum));
+        document.getElementById("action").innerHTML=result;
         break;
     case "-":
-        document.getElementById("action").innerHTML=(Number(firstNum) - Number(secondNum));
+        document.getElementById("action").innerHTML=result;
         break;
     case "/":
-        document.getElementById("action").innerHTML=(Number(firstNum) / Number(secondNum));
+        document.getElementById("action").innerHTML=result;
         break;
     case "*":
-        document.getElementById("action").innerHTML=(Number(firstNum) * Number(secondNum));
+        document.getElementById("action").innerHTML=result;
+        break;
+    case NaN:
+        document.getElementById("action__error").innerHTML=("არასწორი მოქმედება");
+        console.log("არასწორი მოქმედება");
         break;
     default:
         document.getElementById("action__error").innerHTML=("არასწორი მოქმედება");

@@ -1,6 +1,6 @@
-// var fullName = prompt("შეიყვანეთ თქვენი სახელი სრულიად");
-// // document.write(fullName);
-// document.getElementById("fullName").innerHTML=fullName;
+var fullName = prompt("შეიყვანეთ თქვენი სახელი სრულიად");
+// document.write(fullName);
+document.getElementById("fullName").innerHTML=fullName;
 
 var firstNum = prompt("შეიყვანეთ პირველი რიცხვი");
 var secondNum = prompt("შეიყვანეთ მეორე რიცხვი");
